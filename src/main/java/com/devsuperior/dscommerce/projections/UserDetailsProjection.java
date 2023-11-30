@@ -1,5 +1,9 @@
 package com.devsuperior.dscommerce.projections;
 
-public class UserDetailsProjection {
+public interface UserDetailsProjection {
 
+	String getUsername();
+	String getPassword();
+	Long getRoleId();
+	String getAuthority();
 }
